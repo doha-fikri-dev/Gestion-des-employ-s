@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestion des employés</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+    <h2>Gestion des employés</h2>
+
+    <input type="text" id="matricule" placeholder="Matricule">
+    <input type="text" id="nom" placeholder="Nom">
+    <input type="text" id="prenom" placeholder="Prénom">
+    <input type="number" id="salaire" placeholder="Salaire">a
+
+    <button onclick="ajouter()">Ajouter</button>
+
+    <h3>Liste des employés</h3>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Matricule</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Salaire</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="liste"></tbody>
+    </table>
+
+    <h3 id="moyenne">Salaire moyen : 0 DH</h3>
+
+    <h3 id="maximum">Salaire maximum : Aucun employé</h3>
+
+  <script src="script.js"></script>
+
+    </script>
+
+</body>
+</html>
